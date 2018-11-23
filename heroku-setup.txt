@@ -1,0 +1,11 @@
+Heroku Local Set Up:
+1. Create an account online
+2. Then get the heroku CLI [ git required, node, npm for node app]
+    heroku login [ should be prompted to enter credentials ]
+3. Create an app in your server folder by  heroku create
+4. https://murmuring-tor-60553.herokuapp.com/ | https://git.heroku.com/murmuring-tor-60553.git
+5. The first link is the app directory in heroku site
+6. The second link is the deployment directory
+7. So, set up the deployment directory as the remote repository to the current repository 
+8. git remote add heroku https://git.heroku.com/murmuring-tor-60553.git
+9. git push heroku master
